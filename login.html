@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>login</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="header">
+        <section id="title" class="gradient-background">
+            <section class="flex">
+                <a href="course.html" class="logo">Alemeno.</a>
+
+                <form action="" method="post" class="search-from">
+                    <input type="text" name="search_box" placeholder="search courses..." required maxlength="100">
+                    <button type="submit" class="fas fa-search" name="search_box"></button> 
+                </form>
+
+                <div class="icons">
+                    <div id="menu-btn" class="fas fa-bars"></div>
+                    <div id="search-btn" class="fas fa-search"></div>
+                    <div id="user-btn" class="fas fa-user"></div>
+                    <div id="toggle-btn" class="fas fa-sun"></div>
+                </div>
+
+                <div class="profile">
+                    <img src="pic_1.webp" alt="girl_profile">
+                    <h3>Natasha Roy</h3>
+                    <span>student</span>
+                    <a href="profile.html" class="btn">view profile</a>
+                    <div class="flex-btn">
+                        <a href="login.html" class="option-btn">login</a>
+                        <a href="register.html" class="option-btn">register</a>
+                    </div>
+                </div>
+            </section>
+        </section>
+        </header>
+
+        <div class="side-bar">
+
+            <div class="close-side-bar">
+                <i class="fas fa-times"></i>
+
+            </div>
+            <div class="profile">
+                <img src="pic_1.webp" alt="girl_profile">
+                <h3>Natasha Roy</h3>
+                <span>student</span>
+                <a href="profile.html" class="btn">view profile</a>
+            </div>
+
+            <nav class="navbar">
+                <a href="course.html"><i class="fas fa-home"></i><span>home</span></a>
+                <a href="about.html"><i class="fas fa-question"></i><span>about us</span></a>
+                <a href="contact.html"><i class="fas fa-headset"></i><span>contact us</span></a>
+            </nav>
+        </div>
+
+        <section id="title" class="gradient-background">
+        <section class="form-container">
+
+            <form action="" method="post" enctype="multipart/form-data">
+               <h3>login now</h3>
+               <p>your email <span>*</span></p>
+               <input type="email" name="email" placeholder="enter your email" required maxlength="50" class="box">
+               <p>your password <span>*</span></p>
+               <input type="password" name="pass" placeholder="enter your password" required maxlength="20" class="box">
+               <input type="submit" value="login new" name="submit" class="btn">
+            </form>
+         </section>
+        </section>
+        
+
+        <section id="title" class="gradient-background">
+        <footer class="footer">
+            @ 2024 by <span>ms. Neha Majee, Web designer</span> 
+
+        </footer>
+        <script src="script.js"></script>
+        </section>
+    </body>
+</html>
